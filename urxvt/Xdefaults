@@ -1,0 +1,56 @@
+! ▒██   ██▒▓█████▄ ▓█████   █████▒▄▄▄       █    ██  ██▓  ▄▄▄█████▓  ██████ 
+! ▒▒ █ █ ▒░▒██▀ ██▌▓█   ▀ ▓██   ▒▒████▄     ██  ▓██▒▓██▒  ▓  ██▒ ▓▒▒██    ▒ 
+! ░░  █   ░░██   █▌▒███   ▒████ ░▒██  ▀█▄  ▓██  ▒██░▒██░  ▒ ▓██░ ▒░░ ▓██▄   
+!  ░ █ █ ▒ ░▓█▄   ▌▒▓█  ▄ ░▓█▒  ░░██▄▄▄▄██ ▓▓█  ░██░▒██░  ░ ▓██▓ ░   ▒   ██▒
+! ▒██▒ ▒██▒░▒████▓ ░▒████▒░▒█░    ▓█   ▓██▒▒▒█████▓ ░██████▒▒██▒ ░ ▒██████▒▒
+! ▒▒ ░ ░▓ ░ ▒▒▓  ▒ ░░ ▒░ ░ ▒ ░    ▒▒   ▓▒█░░▒▓▒ ▒ ▒ ░ ▒░▓  ░▒ ░░   ▒ ▒▓▒ ▒ ░
+! ░░   ░▒ ░ ░ ▒  ▒  ░ ░  ░ ░       ▒   ▒▒ ░░░▒░ ░ ░ ░ ░ ▒  ░  ░    ░ ░▒  ░ ░
+!  ░    ░   ░ ░  ░    ░    ░ ░     ░   ▒    ░░░ ░ ░   ░ ░   ░      ░  ░  ░  
+!  ░    ░     ░       ░  ░             ░  ░   ░         ░  ░             ░  
+!           ░                                                               
+
+! URxvt color
+urxvt.background:  [95]#2e3436
+urxvt.foreground:  #EBEBFF
+! black + red
+urxvt*color0:      #2e3436
+urxvt*color1:      #aa0000
+! green + yellow
+urxvt*color2:      #00AA00
+urxvt*color3:      #aa5500
+! blue + purple
+urxvt*color4:      #0000aa
+urxvt*color5:      #aa00aa
+! cyan + white
+urxvt*color6:      #00aaaa
+urxvt*color7:      #aaaaaa
+! bright-black + bright-red
+urxvt*color8:      #555555
+urxvt*color9:      #FF5555
+! bright-green + bright-yellow
+urxvt*color10:     #55ff55
+urxvt*color11:     #ffff55
+! bright-blue + bright-purple
+urxvt*color12:     #5555ff
+urxvt*color13:     #ff55ff
+! bright-cyan + bright-white
+urxvt*color14:     #55ffff
+urxvt*color15:     #ffffff
+
+! URxvt fonts
+!URxvt*font: xft:Hack:size=9
+URxvt*font: xft:Hack Nerd Font:size=9
+
+URxvt*letterSpace: -1
+URxvt*lineSpace: 0
+
+! URxvt interface
+URxvt*scrollBar: false
+URxvt*cursorBlink: false
+URxvt*depth: 32
+
+! URxvt extensions
+URxvt*iso14755: false
+URxvt*perl-ext-common: default,matcher
+URxvt*url-launcher: firefox
+URxvt*matcher.button: 1
