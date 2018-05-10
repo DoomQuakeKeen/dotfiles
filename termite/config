@@ -1,0 +1,58 @@
+[options]
+font = Hack Nerd Font 9
+
+[colors]
+background = rgba(46, 52, 54, 0.95)
+foreground = #ffffff
+
+color0 = #2e3436
+color8 = #555555
+
+# Red
+color1 = #aa0000
+color9 = #ff5555
+
+# Green
+color2 = #00aa00
+color10 = #55ff55
+
+# Yellow
+color3 = #aa5500
+color11 = #ffff55
+
+# Blue
+color4 = #0000aa
+color12 = #5555ff
+
+# Purple
+color5 = #aa00aa 
+color13 = #ff55ff
+
+# Cyan
+color6 = #00aaaa
+color14 = #55ffff
+
+# White
+color7 = #aaaaaa
+color15 = #ffffff
+
+# Base16 3024
+#background = #090300
+#foreground = #f7f7f7
+
+#color0 = #090300
+#color1 = #3a3432
+#color2 = #4a4543
+#color3 = #5c5855
+#color4 = #807d7c
+#color5 = #a5a2a2
+#color6 = #d6d5d4
+#color7 = #f7f7f7
+#color8 = #db2d20
+#color9 = #e8bbd0
+#color10 = #fded02
+#color11 = #01a252
+#color12 = #b5e4f4
+#color13 = #01a0e4
+#color14 = #a16a94
+#color15 = #cdab53
