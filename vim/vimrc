@@ -76,9 +76,12 @@ set undofile
 set undodir=~/.vim/undodir
 
 " ajout de powerline
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
+let term=$TERM
+if $TERM != 'linux'
+  python3 from powerline.vim import setup as powerline_setup
+  python3 powerline_setup()
+  python3 del powerline_setup
+endif
 set laststatus=2
 set showtabline=2
 
