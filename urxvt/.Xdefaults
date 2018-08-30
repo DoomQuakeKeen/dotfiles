@@ -1,0 +1,36 @@
+! ▒██   ██▒▓█████▄ ▓█████   █████▒▄▄▄       █    ██  ██▓  ▄▄▄█████▓  ██████ 
+! ▒▒ █ █ ▒░▒██▀ ██▌▓█   ▀ ▓██   ▒▒████▄     ██  ▓██▒▓██▒  ▓  ██▒ ▓▒▒██    ▒ 
+! ░░  █   ░░██   █▌▒███   ▒████ ░▒██  ▀█▄  ▓██  ▒██░▒██░  ▒ ▓██░ ▒░░ ▓██▄   
+!  ░ █ █ ▒ ░▓█▄   ▌▒▓█  ▄ ░▓█▒  ░░██▄▄▄▄██ ▓▓█  ░██░▒██░  ░ ▓██▓ ░   ▒   ██▒
+! ▒██▒ ▒██▒░▒████▓ ░▒████▒░▒█░    ▓█   ▓██▒▒▒█████▓ ░██████▒▒██▒ ░ ▒██████▒▒
+! ▒▒ ░ ░▓ ░ ▒▒▓  ▒ ░░ ▒░ ░ ▒ ░    ▒▒   ▓▒█░░▒▓▒ ▒ ▒ ░ ▒░▓  ░▒ ░░   ▒ ▒▓▒ ▒ ░
+! ░░   ░▒ ░ ░ ▒  ▒  ░ ░  ░ ░       ▒   ▒▒ ░░░▒░ ░ ░ ░ ░ ▒  ░  ░    ░ ░▒  ░ ░
+!  ░    ░   ░ ░  ░    ░    ░ ░     ░   ▒    ░░░ ░ ░   ░ ░   ░      ░  ░  ░  
+!  ░    ░     ░       ░  ░             ░  ░   ░         ░  ░             ░  
+!           ░                                                               
+
+! URxvt colors
+#include </home/doomquakekeen/default.Xcolors>
+
+! URxvt fonts
+!URxvt*font: xft:Hack Nerd Font Mono:size=9
+URxvt*font: -*-cherry-medium-*-*--13-*-*-*-*-*-*-1
+
+urxvt*boldFont: -*-cherry-bold-*-*--13-*-*-*-*-*-*-1
+urxvt*italicFont: 
+urxvt*bolditalicFont: 
+
+!URxvt*letterSpace: -1
+URxvt*letterSpace: 0
+URxvt*lineSpace: 0
+
+! URxvt interface
+URxvt*scrollBar: false
+URxvt*cursorBlink: false
+!URxvt*depth: 32
+
+! URxvt extensions
+URxvt*iso14755: false
+URxvt*perl-ext-common: default,matcher
+URxvt*url-launcher: firefox
+URxvt*matcher.button: 1
