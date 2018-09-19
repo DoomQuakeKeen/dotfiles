@@ -1,0 +1,7 @@
+#!/bin/sh
+
+~/bin/display &
+~/bin/sleep &
+~/bin/utils &
+
+exec i3

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# notification daemon
+dunst &
+
+# hide mouse cursor
+unclutter &
+
+# automatic usb key mount
+devmon --no-gui &
