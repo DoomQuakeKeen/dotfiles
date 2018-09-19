@@ -1,4 +1,0 @@
-#!/bin/bash
-
-sudo sed -i '$d' /etc/resolv.conf
-echo 'nameserver 37.187.99.178' | sudo tee -a /etc/resolv.conf
