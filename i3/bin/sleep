@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# autolock / turn off screen
-xset dpms 600 &
-xautolock -time 10 -locker "betterlockscreen --lock blur" &
