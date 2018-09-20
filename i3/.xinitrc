@@ -19,4 +19,4 @@ xset +fp ~/.fonts &
 xset fp rehash &
 
 # i3wm
-exec ~/bin/i3wm
+exec ~/bin/wm
