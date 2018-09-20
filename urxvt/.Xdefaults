@@ -10,7 +10,8 @@
 !           ░                                                               
 
 ! URxvt colors
-#include </home/doomquakekeen/default.Xcolors>
+!#include </home/doomquakekeen/default.Xcolors>
+#include </home/doomquakekeen/sourcerer.Xcolors>
 
 ! URxvt fonts
 !URxvt*font: xft:Hack Nerd Font Mono:size=9
