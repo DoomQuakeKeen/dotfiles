@@ -9,29 +9,32 @@
 !  ░    ░     ░       ░  ░             ░  ░   ░         ░  ░             ░  
 !           ░                                                               
 
-! URxvt colors
-!#include </home/doomquakekeen/default.Xcolors>
+! █▓▒░ color scheme
 #include </home/doomquakekeen/sourcerer.Xcolors>
 
-! URxvt fonts
-!URxvt*font: xft:Hack Nerd Font Mono:size=9
+! █▓▒░ fonts
 URxvt*font: -*-cherry-medium-*-*--13-*-*-*-*-*-*-1
 
 urxvt*boldFont: -*-cherry-bold-*-*--13-*-*-*-*-*-*-1
 urxvt*italicFont: 
 urxvt*bolditalicFont: 
 
-!URxvt*letterSpace: -1
 URxvt*letterSpace: 0
 URxvt*lineSpace: 0
 
-! URxvt interface
+! █▓▒░ interface
 URxvt*scrollBar: false
 URxvt*cursorBlink: false
-!URxvt*depth: 32
+URxvt*internalBorder: 5
+URxvt*borderLess: false
 
-! URxvt extensions
-URxvt*iso14755: false
-URxvt*perl-ext-common: default,matcher
+! █▓▒░ extensions
+URxvt*perl-ext-common: default,matcher,clipboard
 URxvt*url-launcher: firefox
 URxvt*matcher.button: 1
+
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+! █▓▒░ misc
+URxvt*iso14755: false
