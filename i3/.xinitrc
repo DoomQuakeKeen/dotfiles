@@ -14,6 +14,9 @@
 # load x resources
 xrdb -merge ~/.Xdefaults &
 
+# terminal emulator
+urxvtd -q -f -o &
+
 # load bitmap fonts
 xset +fp ~/.fonts &
 xset fp rehash &
